@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "sourceMap": false, // Set to false if you don't need .js.map files
+    "declaration": false, // Set to false to avoid .d.ts files
+    "declarationMap": false // Set to false to avoid .d.ts.map files
+  },
+  "include": ["src/**/*", "seed/**/*", "test/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
